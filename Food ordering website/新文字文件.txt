@@ -1,0 +1,5 @@
+customer
+username:5user password:1234
+
+admin
+username:simonlee77 password:1234

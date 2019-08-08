@@ -1,0 +1,152 @@
+.startbody{
+	background-image:url("background.jpg");
+}
+body{
+	font-family:system-ui;
+	margin: 0;
+	height:100%;
+}
+html{
+height:100%;}
+.starth1{
+	font-size:100px!important;
+	font-family:"Lucida Sans Unicode",sans-serif;
+	color:white;
+}
+.fpheader{
+	margin-top:140px;
+	padding:0px;
+}
+.fpbutton{
+    background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+ul.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+	position: fixed;
+	top:0;
+	width:100%;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Full height */
+}
+
+ul.nav li
+{
+    float: left;
+}
+
+ul.nav li a
+{
+    display: block;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+	color: #666;
+	font-size: 18px;
+}
+ul.menu li button{
+	background-color: #f3f3f3; 
+    border: none;
+    color: #666;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	width : 100%;
+}
+
+ul.nav li a:hover:not(.active),
+ul.menu li button:hover:not(.active) {
+    background-color: #ddd;
+	
+}
+
+ul.nav li a.active,
+ul.menu li button.active {
+    background-color: #0b84bf;
+	color:#f6f6b8;
+}
+
+div.content{
+	padding:5%;
+	border: 5px;
+	margin: auto;
+	margin-top:20px;
+	width: 80%;
+	height:100%;
+}
+
+div.column{
+	float:left;
+}
+.row:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+table.menutable{width:100%;}
+table.menutable.pic{
+	width:30%;
+	padding-right:20px;
+}
+table.menutable.big{
+	width:55%;
+	padding-right:20px;
+}
+table.menutable.small{
+	width:15%;
+}
+div.menucon{
+	overflow:auto;width:70%;background-color:white;padding:2%;height:500px;
+}
+form.input input[type=text],
+form.input input[type=password]{
+	width: 40%;
+    padding: 16px 20px;
+    margin: 7px 0;
+    box-sizing: border-box;
+	font-size: 16px;
+}
+form.input input[type=email],
+form.input input[type=tel]{
+	width: 40%;
+    padding: 16px 20px;
+    margin: 7px 0;
+    box-sizing: border-box;
+	font-size: 16px;
+}
+.error{
+	color:red;
+}
+a.simplebutton {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+table.mview{
+	 border: 1px solid black;
+	width:100%; 
+}
+table.mview th,td{
+	border: 1px solid black;
+}
