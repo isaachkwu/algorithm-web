@@ -1,0 +1,126 @@
+body{
+  background-color: #f5f5f5;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #242424;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+}
+
+.navbar li a{
+  display: block;
+  color: white;
+  padding: 10px 18px;
+  text-decoration: none;
+}
+
+.navbar li:not(.navhead) a:hover {
+  background-color: #555;
+}
+
+.active {
+  background-color: #009999;
+}
+.navhead{
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+.main{
+  margin-left:15%;
+  padding:1px 16px;
+  height:100%;
+}
+
+.content{
+  margin: 0 auto;
+  padding: 2em 2em;
+  max-width: 800px;
+  margin-bottom: 50px;
+  line-height: 1.6em;
+}
+
+.content h2{
+  font-weight: 500;
+}
+.header {
+     margin: 0;
+     color: #333;
+     text-align: center;
+     padding: 2.5em 2em 0;
+     border-bottom: 1px solid #eee;
+ }
+    .header h1 {
+        margin: 0.2em 0;
+        font-size: 3em;
+        font-weight: 300;
+    }
+     .header h2 {
+        font-weight: 300;
+        color: #bbbbbb;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .question{
+    	font-weight: 600;
+    }
+    .answers {
+        margin-bottom: 20px;
+    }
+    #submit{
+    	font-family: sans-serif;
+    	font-size: 20px;
+    	background-color: #297;
+    	color: #fff;
+    	border: 0px;
+    	border-radius: 3px;
+    	padding: 20px;
+    	cursor: pointer;
+    	margin-bottom: 20px;
+    }
+    #submit:hover{
+    	background-color: #3a8;
+    }
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+}
+
+.colactive, .collapsible:hover {
+  background-color: #555;
+}
+
+
+.colcontent {
+  padding: 0 18px;
+  max-height:0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.colactive:after {
+  content: "\2212";
+}
